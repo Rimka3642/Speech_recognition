@@ -1,4 +1,8 @@
 import streamlit as st
+import speech_recognition as sr
+import sounddevice as sd
+import wavio
+import numpy as np
 
 # Function to transcribe speech
 def transcribe_speech(api, language):
