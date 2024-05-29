@@ -1,5 +1,4 @@
 import streamlit as st
-import speech_recognition as sr
 
 # Function to transcribe speech
 def transcribe_speech(api, language):
